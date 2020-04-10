@@ -478,6 +478,15 @@ http://www.tooplate.com/view/2098-health
     
     height: 650px;
   }
+  .slider .item1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: contain;
+
+    
+    height: 650px;
+  }
 
   .slider .item-first {
     background-image: url(../images/slider6.jpg);
@@ -491,6 +500,9 @@ http://www.tooplate.com/view/2098-health
   .slider .item-third {
     background-image: url(../images/slider6.jpg);
   }
+
+ 
+
 
 
 
@@ -1238,8 +1250,18 @@ http://www.tooplate.com/view/2098-health
       background: #4267b2;
       color: #ffffff !important;
     }
-    
+   
+    .slider .item-first {
+      background-image: url(../images/pslider1.jpg);
+      
+    }
   
+    .slider .item-second {
+      background-image: url(../images/pslider2.jpg);
+    }
+    .slider .item-third {
+      background-image: url(../images/pslider1.jpg);
+    }
     .news-sidebar {
       margin-top: 2em;
     }
