@@ -9,7 +9,7 @@ http://www.tooplate.com/view/2098-health
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 
   body {
-    background: #f3f5f3;
+    background: #ffffff;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
   }
@@ -347,7 +347,7 @@ http://www.tooplate.com/view/2098-health
     background: #0786ee;
     border-radius: 3px;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 500;
     padding-top: 12px;
     padding-bottom: 12px;
   }
@@ -474,19 +474,9 @@ http://www.tooplate.com/view/2098-health
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: contain;
-
-    
     height: 650px;
   }
-  .slider .item1 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-size: contain;
 
-    
-    height: 650px;
-  }
 
   .slider .item-first {
     background-image: url(../images/slider6.jpg);
@@ -538,9 +528,10 @@ http://www.tooplate.com/view/2098-health
   }
 
   .wrapper {
+    margin-top: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 200px;
+    grid-auto-rows: 1fr;
   }
   
 #about h2 {
@@ -589,12 +580,7 @@ http://www.tooplate.com/view/2098-health
     margin-top: 0;
   }
 
-  .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 200px;
-  }
-
+ 
 #service1 h2 {
   color: #300202;
   text-align: center;
@@ -641,12 +627,12 @@ http://www.tooplate.com/view/2098-health
     margin-top: 0;
   }
 
-  .wrapper {
+  #activities .wrapper {
+    margin-top: 5em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 200px;
+    grid-auto-rows: 1fr;
   }
-
 #activities h2 {
   color: #300202;
   text-align: center;
@@ -770,12 +756,12 @@ http://www.tooplate.com/view/2098-health
     margin-top: 0;
   }
 
-  .wrapper {
+  #price .wrapper {
+    margin-top: 6em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 200px;
+    grid-auto-rows: 1fr;
   }
-
 #price h2 {
   color: #300202;
   text-align: center;
@@ -851,6 +837,18 @@ http://www.tooplate.com/view/2098-health
   .news-image img {
     width: 100%;
   }
+
+
+  
+  .news-thumb .thumbnail:hover {
+    position:absolute;
+    top:-35px;
+    left:-85px;
+    bottom: -85px;
+     
+}
+
+
 
   .news-detail-thumb ul {
     margin: 32px 12px 22px 0px;
@@ -970,6 +968,20 @@ http://www.tooplate.com/view/2098-health
     background: #4267b2;
   }
 
+
+/*---------------------------------------
+      GALLERY            
+  -----------------------------------------*/
+
+
+  /* ----------------------------------------------Gallery------------------------------------- */
+
+.gallery{padding:20px 0 30px 0;}
+.wrapper .gallery h2{display:block; text-align:center; margin:0 0 20px 0; padding:0; color:#2C2C2C; background-color:#000000; font-size:56px; text-transform:uppercase; line-height:normal;}
+.gallery ul{display:inline; margin:0; padding:0; list-style:none;}
+.gallery ul li{display:block; float:left; margin:0 10px 10px 0;}
+.gallery ul li img{width:174px; height:174px; padding:4px; border:1px solid #FFFF00;}
+.gallery ul li.last{margin-right:0;}
 
 
   /*---------------------------------------
@@ -1264,6 +1276,19 @@ http://www.tooplate.com/view/2098-health
     }
     .news-sidebar {
       margin-top: 2em;
+    }
+
+   #activities .wrapper {
+      margin-top: 0rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-rows: 1fr;
+    }
+    #price .wrapper {
+      margin-top: 0rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-rows: 1fr;
     }
 
     #appointment-form {
