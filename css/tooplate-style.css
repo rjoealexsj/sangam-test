@@ -1,10 +1,4 @@
-/*
 
-Template 2098 Health
-
-http://www.tooplate.com/view/2098-health
-
-*/
 
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 
@@ -550,17 +544,17 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-      SERVICE1             
+      SERVICE            
   -----------------------------------------*/
 /*
-  #service1 {
+  #service {
     background: url('../images/s-bg.jpg') no-repeat top center;
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 150px;
   }
 */
-#service1{
+#service{
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -581,15 +575,15 @@ http://www.tooplate.com/view/2098-health
   }
 
  
-#service1 h2 {
+#service h2 {
   color: #300202;
   text-align: center;
 }
-#service1 p{
+#service p{
   color: #000000;
   text-align: justify;
 }
-  #service1 h6 {
+  #service h6 {
     color: #858585;
     margin: 0;
   }
@@ -648,18 +642,22 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-      TEAM MEMBERS              
+      TREATMENT              
   -----------------------------------------*/
-  #team h2 {
+  #treatment{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  #treatment h2 {
     color: #300202;
     text-align: center;
   }
-  #team p{
+  #treatment p{
     color: #000000;
     text-align: justify;
     position: center;
   }
-  #team h3{
+  #treatment h3{
     color: #300202;
     text-align: center;
   }
@@ -776,44 +774,16 @@ http://www.tooplate.com/view/2098-health
   }
 
 
-  /*---------------------------------------
-     SERVICE              
-  -----------------------------------------*/
-
-  #service {
-    background: #a5c422;
-  }
-
-  #service h2,
-  #service h4 {
-    color: #ffffff;
-  }
-
-  #service p {
-    color: #d9d9d9;
-  }
-
-  #service .service-thumb {
-    padding: 0 22px;
-  }
-
-  #service .fa {
-    font-size: 50px;
-    margin-bottom: 10px;
-    background: #ffffff;
-    color: #a5c422;
-    width: 120px;
-    height: 120px;
-    line-height: 120px;
-    border-radius: 100%;
-  }
-
+  
 
   /*---------------------------------------
-      NEWS             
+      GALLERY            
   -----------------------------------------*/
-
-  #news, #news-detail {
+  #gallery{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  #gallery, #news-detail {
     background: #f9f9f9;
   }
 
@@ -839,7 +809,20 @@ http://www.tooplate.com/view/2098-health
   }
 
 
-  
+  #gallery h2 {
+    color: #300202;
+    text-align: center;
+  }
+  #gallery p{
+    color: #000000;
+    text-align: justify;
+  }
+    #gallery h6 {
+      color: #858585;
+      margin: 0;
+    }
+
+   
   .news-thumb .thumbnail:hover {
     position:absolute;
     top:-35px;
@@ -967,64 +950,6 @@ http://www.tooplate.com/view/2098-health
   .news-tags li a:hover {
     background: #4267b2;
   }
-
-
-/*---------------------------------------
-      GALLERY            
-  -----------------------------------------*/
-
-
-  /* ----------------------------------------------Gallery------------------------------------- */
-
-.gallery{padding:20px 0 30px 0;}
-.wrapper .gallery h2{display:block; text-align:center; margin:0 0 20px 0; padding:0; color:#2C2C2C; background-color:#000000; font-size:56px; text-transform:uppercase; line-height:normal;}
-.gallery ul{display:inline; margin:0; padding:0; list-style:none;}
-.gallery ul li{display:block; float:left; margin:0 10px 10px 0;}
-.gallery ul li img{width:174px; height:174px; padding:4px; border:1px solid #FFFF00;}
-.gallery ul li.last{margin-right:0;}
-
-
-  /*---------------------------------------
-      APPOINTMENT             
-  -----------------------------------------*/
-
-  #appointment {
-    padding-top: 100px;
-  }
-
-  #appointment label {
-    color: #393939;
-    font-weight: 500;
-  }
-
-  #appointment .form-control {
-    background: #f9f9f9;
-    border: none;
-    border-radius: 3px;
-    box-shadow: none;
-    font-size: 14px;
-    font-weight: normal;
-    margin-bottom: 15px;
-    transition: all ease-in-out 0.4s;
-  }
-
-  #appointment input,
-  #appointment select {
-    height: 45px;
-  }
-
-  #appointment button#cf-submit {
-    background: #a5c422;
-    color: #ffffff;
-    font-weight: 600;
-    height: 55px;
-  }
-
-  #appointment button#cf-submit:hover {
-    background: #393939;
-    color: #ffffff;
-  }
-
 
   /*---------------------------------------
      FOOTER              
@@ -1291,10 +1216,7 @@ http://www.tooplate.com/view/2098-health
       grid-auto-rows: 1fr;
     }
 
-    #appointment-form {
-      padding-top: 4em;
-      padding-bottom: 4em;
-    }
+    
 
     footer {
       padding-top: 60px;
