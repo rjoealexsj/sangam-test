@@ -1482,6 +1482,13 @@
        .navbar-header a{
          font-size: 12px;
        }
+
+       .preloader span{
+        
+        left:45% !important;
+        
+      }
+
   }
 @media only screen and (max-width: 1000px){
   .tp-rightarrow.default, .tp-leftarrow.default { display:none !important;}
@@ -1575,7 +1582,11 @@
       font-size: 11px;
       letter-spacing: 1px;
     }
-
+    .preloader span{
+        
+      left:42% !important;
+      
+    }
   
   }
 
