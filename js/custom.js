@@ -6,7 +6,10 @@
     $(window).load(function(){
       $('.preloader').fadeOut(1000); // set duration in brackets    
     });
-
+// PRE LOADER 2
+$(window).load(function(){
+  $('.preloader2').fadeOut(1000); // set duration in brackets    
+});
 
     //Navigation Section
     $('.navbar-collapse a').on('click',function(){
