@@ -1484,12 +1484,13 @@
   
        }
        .navbar-header img{
-         width: 70px !important;
-       }
-       .navbar-header a{
-         font-size: 12px;
-       }
-
+        width: 55px !important;
+        
+  
+      }
+      .navbar-header a{
+        font-size: 9px;
+      }
        
 
   }
@@ -1586,6 +1587,19 @@
       letter-spacing: 1px;
     }
     
-  
+    .navbar-header img{
+      width: 55px !important;
+      
+
+    }
+    .navbar-header a{
+      font-size: 9px;
+    }
+
+    .slider .caption {
+      
+      height: 75% !important;
+     
+    }
   }
 
