@@ -1520,19 +1520,24 @@
    
     .slider .item-first {
       background-image: url(../images/pslider1.jpg);
+      width: 100% !important;
       
     }
   
     .slider .item-second {
       background-image: url(../images/pslider2.jpg);
+      width: 100% !important;
     }
     .slider .item-third {
       background-image: url(../images/pslider3.jpg);
+      width: 100% !important;
     }
     .news-sidebar {
       margin-top: 2em;
     }
-
+#treatment .team-thumb img{
+  width: 100% !important;
+}
    #activities .wrapper {
       margin-top: 0rem;
       display: grid;
