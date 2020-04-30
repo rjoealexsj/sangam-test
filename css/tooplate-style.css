@@ -1517,21 +1517,30 @@
       background: #4267b2;
       color: #ffffff !important;
     }
+
+    .slider .item {
+      background-position: center;
+
+      background-size:cover;
+     
+    }
    
     .slider .item-first {
       background-image: url(../images/pslider1.jpg);
-      width: 100% !important;
+      
+      
       
     }
   
     .slider .item-second {
       background-image: url(../images/pslider2.jpg);
-      width: 100% !important;
+      
     }
     .slider .item-third {
       background-image: url(../images/pslider3.jpg);
-      width: 100% !important;
+      
     }
+    
     .news-sidebar {
       margin-top: 2em;
     }
@@ -1603,7 +1612,7 @@
 
     .slider .caption {
       
-      height: 55% !important;
+      height: 68% !important;
      
     }
   }
