@@ -1594,7 +1594,7 @@
     .slider .item {
 
       
-      background-size: cover;
+      
      
     }
     .slider .caption {
@@ -1621,15 +1621,17 @@
   @media only screen and (max-width: 570px) {
   
     .slider .item {
-
-      background-position: center;
       
-     
+      
+      height: 400px;
     }
     .slider .caption {
       
-      height: 68% !important;
+      height: 55% !important;
      
+    }
+    .slider h3, h1{
+      display: none;
     }
 
     .slider .item-first {
@@ -1649,6 +1651,7 @@
     }
     
   }
+ 
   @media only screen and (max-width: 639px) {
     h1 {
       font-size: 3em;
