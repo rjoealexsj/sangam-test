@@ -1597,11 +1597,10 @@
       
      
     }
-    .slider .caption {
-      
-      height: 95% !important;
-     
+    .slider h3, h1{
+      display: none;
     }
+    
     .slider .item-first {
       background-image: url(../images/pslider1.jpg);
       
