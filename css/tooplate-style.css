@@ -1593,7 +1593,7 @@
   
     .slider .item {
 
-      
+      background-position: center;
       
      
     }
@@ -1628,7 +1628,7 @@
     }
     .slider .caption {
       
-      height: 55% !important;
+      height: 65% !important;
      
     }
     .slider h3, h1{
