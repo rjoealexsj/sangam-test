@@ -1520,17 +1520,17 @@
    
     .slider .item-first {
       background-image: url(../images/pslider1.jpg);
-      width: 100% !important;
+      
       
     }
   
     .slider .item-second {
       background-image: url(../images/pslider2.jpg);
-      width: 100% !important;
+      
     }
     .slider .item-third {
       background-image: url(../images/pslider3.jpg);
-      width: 100% !important;
+      
     }
     .news-sidebar {
       margin-top: 2em;
@@ -1603,7 +1603,7 @@
 
     .slider .caption {
       
-      height: 75% !important;
+      height: 55% !important;
      
     }
   }
