@@ -1622,8 +1622,9 @@
   
     .slider .item {
       
-      
-      height: 400px;
+      background-position: center;
+      background-size: cover;
+      height: 500px;
     }
     .slider .caption {
       
